@@ -1,0 +1,30 @@
+.pages-container{
+    display: inline-block;
+    text-align: center;
+    background: none;
+    width: 100%;
+}
+
+.selected-page-btn{
+    padding: 1%;
+    font-size: 16px;
+    border: none;
+    background: none;
+    color: rgb(11, 23, 83);
+    border-bottom: 2px solid;
+}
+
+.page-btn{
+    padding: 1%;
+    font-size: 16px;
+    border: none;
+    background: none;
+    color: rgb(14, 32, 117);
+    cursor: pointer;
+}
+
+.page-btn:hover{
+    color: rgb(47, 75, 217);
+    border-bottom: 2px solid;
+}
+

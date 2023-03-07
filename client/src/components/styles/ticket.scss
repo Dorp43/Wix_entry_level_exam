@@ -1,0 +1,149 @@
+.ticket {
+    width: 100%;
+    flex-shrink: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px 1px #e1e5e8;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #fff;
+    padding: 0 20px;
+    transition: box-shadow .2s ease-in-out;
+    position: relative;
+
+    &:hover {
+        box-shadow: 0 2px 6px 1px #d3d7da;
+    }
+
+    .title {
+        margin: 15px 0;
+        text-align: center;
+        font-size: 22px;
+        font-weight: 400;
+        font-style: normal;
+        color: #1c5b85;
+    }
+
+    .content{
+        font-size: 15px;
+        font-weight: 400;
+        color: #20455e; 
+    }
+
+    .content-narrowed {
+        max-height: 100px;
+    }
+
+    .content-expanded {
+        max-height: none;
+    }
+
+    .resize-btn-container {
+        text-align: center;
+        height: 2%;
+        position: relative;
+    }
+
+    .resize-btn {
+        text-align: center;
+        color: #529bcb;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .resize-btn:hover {
+        color: #4381aa;
+        font-weight: 650;
+        cursor: pointer;
+    }
+
+
+
+    .rename-btn {
+        position: absolute;
+        right: 1%;
+        color: #0f4061;
+        cursor: pointer;
+    }
+
+    .rename-btn:hover {
+        color: #1580c7;
+    }
+
+
+    .title-editor {
+        display: flex;
+        justify-content: space-between;
+        margin: 15px 0;
+        font-size: 16px;
+    }
+
+    .title-editor-tools {
+        display: flex;
+        width: 5%;
+        margin-left: 2%;
+    }
+
+    .title_input {
+        width: 90%;
+        font-weight: 400;
+        font-style: normal;
+        color: #20455e;
+    }
+
+    .confirm-title-btn {
+        color: rgb(5, 95, 5);
+        cursor: pointer;
+
+    }
+
+    .confirm-title-btn:hover {
+        color: rgb(4, 196, 4);
+    }
+
+    .deny-title-btn {
+        color: rgb(162, 8, 8);
+        cursor: pointer;
+        margin-left: 1%;
+        margin-left: 25%;
+    }
+
+    .deny-title-btn:hover {
+        color: rgb(252, 77, 77);
+        cursor: pointer;
+    }
+
+    .ticket-meta-data {
+        background: #ffffff;
+        // display: flex;
+        // text-align: center;
+        justify-content: space-between;
+        padding: 1%;
+
+        .meta-data {
+            color: #7a92a5;
+            font-size: 12px;
+            margin: 10px 0;
+            flex-shrink: 0;
+        }
+
+        .tags-container {
+            margin-top: 1%;
+            width: 60%;
+        }
+
+        .tags-container span {
+            margin: 1%;
+            font-size: 14px;
+            background-color: #badcf3c9;
+            border-radius: 5px;
+            border: solid #86cdfc 1px;
+            width: 100% !important;
+            cursor: pointer;
+        }
+    }
+
+
+}

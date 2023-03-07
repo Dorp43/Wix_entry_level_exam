@@ -1,0 +1,3 @@
+examKey=38
+createdAt=2/27/2021
+candidateEmail=Dor9000@email.com
